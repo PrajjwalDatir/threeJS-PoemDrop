@@ -51,9 +51,9 @@ scene.add(pointLight, ambientLight, pointMoonLight);
 // scene.add(pointLight);
 
 // Helpers
-const moonlightHelper = new THREE.PointLightHelper(pointMoonLight);
-const lightHelper = new THREE.PointLightHelper(pointLight);
-const gridHelper = new THREE.GridHelper(200, 50);
+// const moonlightHelper = new THREE.PointLightHelper(pointMoonLight);
+// const lightHelper = new THREE.PointLightHelper(pointLight);
+// const gridHelper = new THREE.GridHelper(200, 50);
 // scene.add(moonlightHelper, lightHelper);
 
 const controls = new OrbitControls(camera, renderer.domElement);
@@ -75,12 +75,12 @@ function monarch() {
 // Array(100).fill().forEach(addStar);
 
 // Background
-const spaceTexture = new THREE.TextureLoader().load("./space.jpg");
-const rainTexture = new THREE.TextureLoader().load("./rainy.jpg");
+// const spaceTexture = new THREE.TextureLoader().load("./space.jpg");
+const rainTexture = new THREE.TextureLoader().load("https://github.com/PrajjwalDatir/threeJS-PoemDrop/blob/main/rainy.jpg");
 // scene.background = spaceTexture;
 scene.background = rainTexture;
 
-const myTexture = new THREE.TextureLoader().load("./MONARCH02transbg.svg");
+const myTexture = new THREE.TextureLoader().load("https://github.com/PrajjwalDatir/threeJS-PoemDrop/blob/main/MONARCH02transbg.svg");
 const monarch02 = new THREE.Mesh(
   new THREE.BoxGeometry(9, 9, 9),
   new THREE.MeshBasicMaterial({ map: myTexture })
