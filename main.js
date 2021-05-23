@@ -2,7 +2,8 @@ import "./style.css";
 
 import * as THREE from "https://unpkg.com/three@0.126.1/build/three.module.js";
 import { OrbitControls } from "https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js";
-
+import rainy from './rainy.jpg';
+import MONARCH02transbg from './MONARCH02transbg.svg';
 // Setup
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
@@ -76,12 +77,12 @@ function monarch() {
 // Background
 // const spaceTexture = new THREE.TextureLoader().load("./space.jpg");
 // const rainTexture = new THREE.TextureLoader().load("https://github.com/PrajjwalDatir/threeJS-PoemDrop/blob/main/rainy.jpg");
-const rainTexture = new THREE.TextureLoader().load("./rainy.jpg");
+const rainTexture = new THREE.TextureLoader().load(rainy);
 // scene.background = spaceTexture;
 scene.background = rainTexture;
 
 // const myTexture = new THREE.TextureLoader().load("https://github.com/PrajjwalDatir/threeJS-PoemDrop/blob/main/MONARCH02transbg.svg");
-const myTexture = new THREE.TextureLoader().load("./MONARCH02transbg.svg");
+const myTexture = new THREE.TextureLoader().load(MONARCH02transbg);
 const monarch02 = new THREE.Mesh(
   new THREE.BoxGeometry(9, 9, 9),
   new THREE.MeshBasicMaterial({ map: myTexture })
