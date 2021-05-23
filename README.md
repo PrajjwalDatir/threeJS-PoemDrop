@@ -1,10 +1,13 @@
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FPrajjwalDatir%2FthreeJS-PoemDrop&project-name=prajjwal-threejs-poem-drop&repo-name=prajjwal-threejs-poem-drop)
+
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
+
+
 [![Issues][issues-shield]][issues-url]
 [![Mozilla Public License 2.0][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -77,11 +80,11 @@ Project stack is fairly simple and ThreeJS is the only major framework used.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You can refer to this video to get started with ThreeJS.
-<br>
+- You can refer to this video to get started with ThreeJS.
 https://www.youtube.com/watch?v=Q7AOvWpIVHU
-Also refer to documentation at 
-<br>
+
+
+- Also refer to documentation at 
 https://threejs.org/docs/
 
 
@@ -147,7 +150,8 @@ See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Prajjwal Datir - [@prajjwal_datir](https://twitter.com/prajjwal_datir) - Twitter
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Twitter][twitter-shield]][twitter-url]
 
 Project Link: [https://github.com/PrajjwalDatir/threeJS-PoemDrop](https://github.com/PrajjwalDatir/threeJS-PoemDrop)
 
@@ -166,3 +170,5 @@ Project Link: [https://github.com/PrajjwalDatir/threeJS-PoemDrop](https://github
 [license-url]: https://github.com/PrajjwalDatir/threeJS-PoemDrop/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/datir/
+[twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[twitter-url]: https://twitter.com/prajjwal_datir
